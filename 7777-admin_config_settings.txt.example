@@ -1,0 +1,146 @@
+enable_staff_access: false
+enable_manager_access: false
+enable_banteam_access: true
+enable_banteam_reserved_slots: true
+enable_banteam_bypass_geoblocking: true
+
+vip_badge: VIP
+vip_color: yellow
+vip_cover: true
+vip_hidden: false
+vip_kick_power: 0
+vip_required_kick_power: 0
+
+premium_badge: Премиум
+premium_color: magenta
+premium_cover: true
+premium_hidden: false
+premium_kick_power: 0
+premium_required_kick_power: 0
+
+owner_badge: Основатель | Workbench
+owner_color: magenta
+owner_cover: true
+owner_hidden: true
+owner_kick_power: 255
+owner_required_kick_power: 255
+
+curator_badge: Куратор
+curator_color: aqua
+curator_cover: true
+curator_hidden: false
+curator_kick_power: 254
+curator_required_kick_power: 254
+
+helper3_badge: Участник совета О5
+helper3_color: red
+helper3_cover: true
+helper3_hidden: false
+helper3_kick_power: 30
+helper3_required_kick_power: 31
+
+helper2_badge: Руководитель Зон
+helper2_color: orange
+helper2_cover: true
+helper2_hidden: false
+helper2_kick_power: 28
+helper2_required_kick_power: 29
+
+helper1_badge: Руководитель проектов
+helper1_color: tomato
+helper1_cover: true
+helper1_hidden: false
+helper1_kick_power: 27
+helper1_required_kick_power: 28
+
+events3_badge: Старший научный сотрудник
+events3_color: yellow
+events3_cover: true
+events3_hidden: false
+events3_kick_power: 25
+events3_required_kick_power: 26
+
+events2_badge: Научный сотрудник
+events2_color: yellow
+events2_cover: true
+events2_hidden: false
+events2_kick_power: 20
+events2_required_kick_power: 21
+
+events1_badge: Младший научный сотрудник
+events1_color: yellow
+events1_cover: true
+events1_hidden: false
+events1_kick_power: 10
+events1_required_kick_power: 11
+
+guard3_badge: Руководитель служб безопасности
+guard3_color: aqua
+guard3_cover: true
+guard3_hidden: false
+guard3_kick_power: 20
+guard3_required_kick_power: 21
+
+guard2_badge: Офицер служб безопасности
+guard2_color: cyan
+guard2_cover: true
+guard2_hidden: false
+guard2_kick_power: 10
+guard2_required_kick_power: 11
+
+guard1_badge: Сотрудник служб безопасности
+guard1_color: nickel
+guard1_cover: true
+guard1_hidden: false
+guard1_kick_power: 1
+guard1_required_kick_power: 2
+
+Roles:
+ - owner
+ - curator
+ - helper1
+ - helper2
+ - helper3
+ - events1
+ - events2
+ - events3
+ - guard1
+ - guard2
+ - guard3
+ - vip
+ - premium
+
+Permissions:
+ - AFKImmunity: []
+ - ServerConfigs: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - KickingAndShortTermBanning: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - BanningUpToDay: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - LongTermBanning: [owner, curator, helper2, helper1, helper3, events3, events2, guard3, guard2]
+ - ForceclassSelf: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - ForceclassToSpectator: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - ForceclassWithoutRestrictions: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - GivingItems: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2]
+ - WarheadEvents: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - RespawnEvents: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - RoundEvents: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - SetGroup: [owner, curator]
+ - GameplayData: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - Overwatch: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - FacilityManagement: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2]
+ - PlayersManagement: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - PermissionsManagement: [owner, curator]
+ - ServerConsoleCommands: [owner, curator]
+ - ViewHiddenBadges: [owner, curator]
+ - Broadcasting: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2]
+ - PlayerSensitiveDataAccess: [owner, curator]
+ - Noclip: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - AdminChat: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - ViewHiddenGlobalBadges: [owner, curator]
+ - Announcer: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2]
+ - Effects: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2]
+ - FriendlyFireDetectorImmunity: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+ - FriendlyFireDetectorTempDisable: [owner, curator, helper2, helper1, helper3, events3, events2, events1, guard3, guard2, guard1]
+
+override_password: none
+override_password_role: owner
+allow_central_server_commands_as_ServerConsoleCommands: false

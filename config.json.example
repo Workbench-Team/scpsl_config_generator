@@ -1,0 +1,17 @@
+{
+	"backend": {
+		"token": "value",
+		"host": "hostname",
+		"port": 8080
+	},
+	"servers": {
+		"example": {
+			"name": "example",
+			"endport": "7777",
+			"priority_roles": [
+				"owner",
+			],
+			"disabled": 0
+		}
+	}
+}

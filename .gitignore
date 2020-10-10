@@ -1,0 +1,12 @@
+*settings.txt
+*.json
+*.sh
+*.patch
+*.log
+*.old
+*.save
+config
+deps
+lit
+luvi
+luvit
